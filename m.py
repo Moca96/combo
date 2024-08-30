@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @KaliaYtOwner."
+        response = "You have not purchased yet purchase now from:- @zadkiel_z."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @KaliaYtOwner ❄."
+        response = "You have not purchased yet purchase now from :- @Zadkiel_z ❄."
     bot.reply_to(message, response)
 
 
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @KaliaYtOwner")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @Zadkiel_z")
 
     bot.reply_to(message, response)
 
@@ -357,8 +357,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @KaliaYtOwner
-Official Channel :- https://t.me/+vEq_y0x5tKNhMzFl
+Buy From :- @Zadkiel_z
+Official Channel :- https://t.me/+_bvkAEc4b0FjNTFh
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @KaliaYtOwner'''
+✅BUY :- @Zadkiel_z'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -400,9 +400,9 @@ Vip 🌟 :
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+Day-->50 Rs
+Week-->270 Rs
+Month-->500 Rs
 '''
     bot.reply_to(message, response)
 
